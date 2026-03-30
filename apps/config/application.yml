@@ -1,0 +1,20 @@
+# 配置端口
+web:
+  host: localhost
+  port: 18998
+  allowOrigin: ['*']
+
+# qgis 配置
+qgis:
+  # qgis路径
+  root: "D:/makemap/QGIS3.42"
+  # 设置dpi
+  exportDpi: 300
+
+# 连接到自己的数据库
+db:
+  host: 127.0.0.1
+  port: 5432
+  database: yjzyk_xian
+  username: postgres
+  password: postgres
